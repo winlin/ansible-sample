@@ -2,5 +2,6 @@
 - hosts: all
   tasks: 
      - name: test connection
-       ping: 
+       shell: ls -la ~
+       remote_user:haobtc
 ...
