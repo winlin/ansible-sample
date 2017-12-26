@@ -3,5 +3,5 @@
   tasks: 
      - name: test connection
        shell: ls -la ~
-       remote_user:haobtc
+       remote_user: haobtc
 ...
